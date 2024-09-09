@@ -1,0 +1,81 @@
+#tarolo{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+}
+
+.zold{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: none;
+}
+
+.lila{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    align-self: center;
+}
+
+.sarga{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: none;
+}
+
+/*2*/
+#f2tarolo{
+    list-style: none;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#f2tarolo li{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin-right: 5px;
+}
+
+/*3*/
+#f3tarolo{
+    list-style: none;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#f3tarolo li{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+/*4*/
+#f4tarolo{
+    list-style: none;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: yellow;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#f4tarolo li{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin-left: 5px;
+}
